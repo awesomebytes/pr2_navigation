@@ -1,5 +1,5 @@
 <launch>
-  <include file="$(find pr2_machine)/$(env ROBOT).machine" />
+  <include file="$(find pr2_machine)/sim.machine" />
 
   <!-- Bring up the tilt_laser aware version of move_base -->
   <node pkg="pr2_move_base" name="pr2_move_base_node" type="pr2_move_base.py" machine="c2" />

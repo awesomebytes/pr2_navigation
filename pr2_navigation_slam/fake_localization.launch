@@ -1,0 +1,5 @@
+<launch>
+
+<node pkg="fake_localization" name="fake_loc" type="fake_localization" />
+
+</launch>
